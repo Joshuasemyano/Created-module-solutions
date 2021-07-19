@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" href="style.css">
+    <style>
+   * {
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 27px;
+  font-family: helevicta serif;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 30px;
+}
+.container {
+  width: 100;
+}
+.section {
+  background-color: hsl(0, 0%, 59%);
+  border: 2px solid black;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 3px;
+  text-align: justify;
+  position: relative;
+}
+span {
+  font-size: 20px;
+  width: 150;
+  border: 1px solid black;
+  font-weight: bold;
+  text-align: center;
+  float: right;
+  top: 0, right 0;
+  margin: 0;
+}
+#h1 {
+  background-color: hsl(0, 25%, 78%);
+  color: hsl(0, 0%, 0%);
+}
+#h2 {
+  background-color: hsl(100, 94%, 44%);
+  color: hsl(0, 0%, 98%);
+}
+#h3 {
+  background-color: hsl(240, 81%, 57%);
+  color: hsl(66, 82%, 35%);
+}
+p {
+  padding: 15px, 5px, 0px, 5px;
+  font-family: "Lucida Sans", sans-serif;;
+  font-size: 16px;
+  background-color: hsl(50%, 50%, 50%);
+  position: relative;
+}
+
+/* Desktop  view */
+
+@media (min-width: 1200px) {
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+  }
+}
+
+/* Tablet  view */
+@media (min-width: 768px) and (max-width: 995px) {
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+
+/*  phone view */
+@media (max-width: 767px) {
+  .col-sx-12 {
+    float: left;
+    width: 100%;
+  }
+</style>
+    </head>
+    <body>
+        <h1>
+            Our Menu
+        </h1>
+        
+            <div class="col-lg-4 col-md-6">
+                <section class="section">
+                   <span id="h1">Chicken</span>
+                    <p>
+            lorem ipsum dolor sit omet, consectetur 
+odipisicing elite, sed do eiusmod tempor incididunt
+ut lobore et dolore mogna aliquo.Ut enim ad
+minim veniam,quis nostrud exercitation ullamco
+laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+                </section>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <section class="section">
+                <span id="h2">Beef</span>
+                <p>
+            lorem ipsum dolor sit omet, consectetur 
+odipisicing elite, sed do eiusmod tempor incididunt
+ut lobore et dolore mogna aliquo.Ut enim ad
+minim veniam,quis nostrud exercitation ullamco
+laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <section>
+        </div>
+        <div class="col-lg-4 col-md-6 col-md-12 col-sx-12">
+            <section class="section">
+                 <span id="h3">Sushi</span>
+                 <p>
+            lorem ipsum dolor sit omet, consectetur 
+odipisicing elite, sed do eiusmod tempor incididunt
+ut lobore et dolore mogna aliquo.Ut enim ad
+minim veniam,quis nostrud exercitation ullamco
+laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+             <section>
+    </div>
+    </body>
+</html>
+
